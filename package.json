@@ -4,6 +4,7 @@
   "description": "GeoMoose 3 Mobile Application Demo",
   "main": "mobile.js",
   "dependencies": {
+    "gm3": "^1.0.0-beta",
     "jquery": "^2.1.4",
     "jquery-mobile": "^1.4.1"
   },
