@@ -1,5 +1,6 @@
 {
   "name": "gm3-mobile-demo",
+  "repository": "https://github.com/geomoose/gm3-demo-mobile/",
   "version": "1.0.0-beta",
   "description": "GeoMoose 3 Mobile Application Demo",
   "main": "mobile.js",
