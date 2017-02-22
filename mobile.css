@@ -58,3 +58,11 @@
 .catalog .searchbox {
 	top: 15px;
 }
+
+.ui-navbar {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
