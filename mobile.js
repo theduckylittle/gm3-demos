@@ -33,7 +33,7 @@ var app = new gm3.Application({
 });
 
 function changeTab(tabName) {
-	$('#'+tabName+'-btn').trigger('click');
+    $('#'+tabName+'-btn').trigger('click');
 }
 
 app.uiUpdate = function(ui) {
@@ -46,11 +46,8 @@ app.uiUpdate = function(ui) {
 }
 
 app.loadMapbook({url: 'mapbook.xml'}).then(function() {
-    /*
     app.registerService('identify', IdentifyService);
-    app.registerService('search', SearchService);
     app.registerAction('findme', FindMeAction);
-    */
 
     app.add(gm3.components.Catalog, 'catalog');
     app.add(gm3.components.Favorites, 'favorites');
@@ -62,4 +59,12 @@ app.loadMapbook({url: 'mapbook.xml'}).then(function() {
     app.add(gm3.components.Map, 'map');
 
     changeTab('map');
+
+  
+    $('#findme-btn').on('click', function() {
+        // start the action
+        app.startAction('findme');
+        // head back to the map.
+        changeTab('map');
+    });
 });

@@ -23,46 +23,45 @@
  */
 
 #tabs {
-	position: absolute;
-	top: 0;
-	width: 100%;
-	bottom: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    bottom: 0;
 }
 
 #tab-bar {
-	position: absolute;
-	top: 0;
-	left; 0;
-	width: 100%;
+    position: absolute;
+    top: 0;
+    left; 0;
+    width: 100%;
 }
 
 .tab-content {
-	position: absolute;
-	top: 2em; bottom: 0;
-	width: 100%;
-	overflow: auto;
+    position: absolute;
+    top: 2em; bottom: 0;
+    width: 100%;
+    overflow: auto;
 }
 
 #map {
-	background-color: white;
-	overflow: hidden;
+    background-color: white;
+    overflow: hidden;
 }
 
 #map .map {
-	position: absolute;
-	left: 0; width: 100%;
-	top: 0; height: 100%;
-	overflow: hidden;
+    position: absolute;
+    left: 0; width: 100%;
+    top: 0; height: 100%;
+    overflow: hidden;
 }
 
 .catalog .searchbox {
-	top: 15px;
+    top: 15px;
 }
 
 .ui-navbar {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
-
