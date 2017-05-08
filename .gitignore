@@ -8,6 +8,8 @@
 
 # GeoMOOSE demo site specific config file
 /desktop/config.js
+/desktop/geomoose
+
 /mobile/config.js
 
 # Editor backup files
