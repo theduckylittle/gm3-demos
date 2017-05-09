@@ -6,7 +6,8 @@
   "main": "mobile.js",
   "dependencies": {
     "jquery": "^2.1.4",
-    "jquery-mobile": "^1.4.1"
+    "jquery-mobile": "^1.4.1",
+    "geomoose": "http://www.geomoose.org/downloads/unsupported/geomoose-3.0.0-beta.tgz"
   },
   "devDependencies": {},
   "scripts": {
