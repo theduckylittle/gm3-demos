@@ -1,0 +1,26 @@
+{
+  "name": "gm3-demos-desktop",
+  "version": "1.0.0-beta",
+  "description": "Full featured development application for GeoMoose.",
+  "main": "app.js",
+  "scripts": {
+    "serve" : "node ./node_modules/http-server/bin/http-server -P http://localhost:8000/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geomoose/gm3-demos.git"
+  },
+  "keywords": [
+    "geomoose",
+    "webgis"
+  ],
+  "author": "Dan \"Ducky\" Little",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geomoose/gm3-demos/issues"
+  },
+  "homepage": "https://github.com/geomoose/gm3-demos#readme",
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
+}

@@ -1,12 +1,13 @@
 # GeoMoose Desktop Testing Application
 
-THESE FILES ARE NOT TO BE USED AS THE BASIS OF A PRODUCTION APPLICATION.
+This demo is intended as a very basic starting point for an application.
 
-THEY ARE PROVIDED AS EXAMPLES *ONLY* AND ARE USED BY THE DEVELOPMENT TEAM
-TO TEST NEW FEATURES AND PROVIDE A BASIC FRAMEWORK FOR DEVELOPING THE 
-GEOMOOSE LIBRARY.
+The developers strive to provide a complete application without using a
+given UI toolkit or Framework.  This version of the application provides
+a grounds to demonstrate as many of the GeoMoose components as possible.
 
-*YOU HAVE BEEN WARNED*
+It is *preferable* to download one of the ready-made GeoMoose packages as
+a starting point but it is certainly reasonable to fork and clone this repo.
 
 ## To Install (end users) ##
 
